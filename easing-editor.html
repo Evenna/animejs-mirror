@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="darkreader-lock">
-  <link rel="icon" href="/assets/images/favicon.png">
+  <link rel="icon" href="./assets/images/favicon.png">
   <title>Easings editor | Anime.js | JavaScript Animation Engine</title>
   <meta name="description" content="Visualize, configure and generate JavaScript and CSS spring and easing functions with the official Anime.js Easing Editor">
   <meta property="og:title" content="Easings editor | Anime.js | JavaScript Animation Engine">
@@ -17,16 +17,16 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://animejs.com/media/pages/easing-editor/4e7b390633-1777477891/generated-og-image.en.png">
   <meta name="twitter:description" content="Visualize, configure and generate JavaScript and CSS spring and easing functions with the official Anime.js Easing Editor">
-  <link href="/assets/css/styles.css?v=4.4.1" rel="stylesheet"></head>
+  <link href="./assets/css/styles.css" rel="stylesheet"></head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-16LTPBS8QC"></script>
 <script>
   window.paths = {
-    demos: '/documentation-demos',
-    'easings': '/assets/json/easings.json',
-    'github-sponsors': '/sponsors/github-sponsors',
-    'platinum-sponsors': '/sponsors/platinum-sponsors',
-    'gold-sponsors': '/sponsors/gold-sponsors',
-    'silver-sponsors': '/sponsors/silver-sponsors',
+    demos: './documentation-demos.html',
+    'easings': './assets/json/easings.json',
+    'github-sponsors': './sponsors/github-sponsors.html',
+    'platinum-sponsors': './sponsors/platinum-sponsors.html',
+    'gold-sponsors': './sponsors/gold-sponsors.html',
+    'silver-sponsors': './sponsors/silver-sponsors.html',
   };
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -40,7 +40,7 @@
   <div id="site-header-content">
     <h1 class="heading-logo header-logo">
       <a href="/">
-        <img src="/assets/images/anime-js-logo-v4.svg" alt="anime.js logo v4" width="580" height="118" />
+        <img src="./assets/images/anime-js-logo-v4.svg" alt="anime.js logo v4" width="580" height="118" />
         <span>Anime.js | JavaScript Animation Engine</span>
       </a>
       <label id="docs-versions" class="ui-select ui-input docs-info-version">
@@ -53,15 +53,15 @@
     </h1>
     <nav id="site-menu">
       <ul>
-                                        <li><a class="main-nav-link docs-link" data-id="docs" href="/documentation" title="Documentation"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+                                        <li><a class="main-nav-link docs-link" data-id="docs" href="./documentation" title="Documentation"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
   <g id="sidebar" fill="none" fill-rule="evenodd">
     <path id="rectangle" fill="#FFFFFF" fill-rule="nonzero" d="M16.167 6.125H7.833A3.375 3.375 0 0 0 4.458 9.5v5a3.375 3.375 0 0 0 3.375 3.375h8.334a3.375 3.375 0 0 0 3.375-3.375v-5a3.375 3.375 0 0 0-3.375-3.375zm-8.334 1.75h8.334c.897 0 1.625.728 1.625 1.625v5c0 .897-.728 1.625-1.625 1.625H7.833A1.625 1.625 0 0 1 6.208 14.5v-5c0-.897.728-1.625 1.625-1.625z"/>
     <polyline id="Path-42" stroke="#FFFFFF" stroke-width="1.75" points="9.5 7.75 9.5 12 9.5 16.25" data-points="13.5 8.75 10.5 12 13.5 15.25"/>
   </g>
 </svg>
 <span>Docs</span></a></li>
-        <li><a class="main-nav-link is-active" href="/easing-editor" title="Easing functions editor"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon"><path fill="none" stroke="currentColor" stroke-width="1.75" d="M4.5,17 C14.5967876,17 8.37571813,7 19.5,7"/></svg><span>Easings</span></a></li>
-        <li><a class="main-nav-link" href="/learn" title="Learn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon">
+        <li><a class="main-nav-link is-active" href="./easing-editor" title="Easing functions editor"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon"><path fill="none" stroke="currentColor" stroke-width="1.75" d="M4.5,17 C14.5967876,17 8.37571813,7 19.5,7"/></svg><span>Easings</span></a></li>
+        <li><a class="main-nav-link" href="./learn" title="Learn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon">
   <g fill="none"><path fill="currentColor" d="M16.1666667,6.125 L7.83333333,6.125 C5.9693723,6.125 4.45833333,7.63603897 4.45833333,9.5 L4.45833333,14.5 C4.45833333,16.363961 5.9693723,17.875 7.83333333,17.875 L16.1666667,17.875 C18.0306277,17.875 19.5416667,16.363961 19.5416667,14.5 L19.5416667,9.5 C19.5416667,7.63603897 18.0306277,6.125 16.1666667,6.125 Z M7.83333333,7.875 L16.1666667,7.875 C17.0641294,7.875 17.7916667,8.60253728 17.7916667,9.5 L17.7916667,14.5 C17.7916667,15.3974627 17.0641294,16.125 16.1666667,16.125 L7.83333333,16.125 C6.93587061,16.125 6.20833333,15.3974627 6.20833333,14.5 L6.20833333,9.5 C6.20833333,8.60253728 6.93587061,7.875 7.83333333,7.875 Z"/><path fill="currentColor" fill-rule="evenodd" d="M10,10.0706309 L10,13.9294941 C10,14.2445758 10.2554242,14.5 10.5705059,14.5 C10.6590742,14.5 10.7464261,14.479379 10.8256439,14.4397701 L14.6845071,12.5103385 C14.9663248,12.3694297 15.0805539,12.0267421 14.9396451,11.7449245 C14.8844409,11.634516 14.7949156,11.5449908 14.6845071,11.4897865 L10.8256439,9.56035488 C10.5438263,9.41944606 10.2011387,9.53367523 10.0602299,9.81549288 C10.033824,9.86830478 10.0158571,9.92473182 10.0068132,9.9827243 L10,10.0706309 Z"/></g>
 </svg><span>Learn</span></a></li>
         <li><a class="main-nav-link nav-link-retractable" href="https://codepen.io/collection/Poerqa?cursor=eyJwYWdlIjoxfQ==/" target="_blank" title="CodePen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
@@ -114,7 +114,7 @@
             data-color="2"
             data-category="Spring"
             title="Spring default"
-            href="/easing-editor/spring/default          ">
+            href="./easing-editor/spring/default          ">
             <span>spring default</span>
           </a>
         </li>
@@ -125,7 +125,7 @@
             data-color="2"
             data-category="Spring"
             title="Spring snappy"
-            href="/easing-editor/spring/snappy          ">
+            href="./easing-editor/spring/snappy          ">
             <span>spring snappy</span>
           </a>
         </li>
@@ -136,7 +136,7 @@
             data-color="2"
             data-category="Spring"
             title="Spring bouncy"
-            href="/easing-editor/spring/bouncy          ">
+            href="./easing-editor/spring/bouncy          ">
             <span>spring bouncy</span>
           </a>
         </li>
@@ -147,7 +147,7 @@
             data-color="2"
             data-category="Spring"
             title="Spring strong"
-            href="/easing-editor/spring/strong          ">
+            href="./easing-editor/spring/strong          ">
             <span>spring strong</span>
           </a>
         </li>
@@ -158,7 +158,7 @@
             data-color="4"
             data-category="Cubic Bezier"
             title="Bezier in"
-            href="/easing-editor/cubic-bezier/in          ">
+            href="./easing-editor/cubic-bezier/in          ">
             <span>bezier in</span>
           </a>
         </li>
@@ -169,7 +169,7 @@
             data-color="4"
             data-category="Cubic Bezier"
             title="Bezier out"
-            href="/easing-editor/cubic-bezier/out          ">
+            href="./easing-editor/cubic-bezier/out          ">
             <span>bezier out</span>
           </a>
         </li>
@@ -180,7 +180,7 @@
             data-color="4"
             data-category="Cubic Bezier"
             title="Bezier inOut"
-            href="/easing-editor/cubic-bezier/inout          ">
+            href="./easing-editor/cubic-bezier/inout          ">
             <span>bezier inOut</span>
           </a>
         </li>
@@ -191,7 +191,7 @@
             data-color="4"
             data-category="Cubic Bezier"
             title="Bezier outIn"
-            href="/easing-editor/cubic-bezier/outin          ">
+            href="./easing-editor/cubic-bezier/outin          ">
             <span>bezier outIn</span>
           </a>
         </li>
@@ -202,7 +202,7 @@
             data-color="5"
             data-category="Power"
             title="Power in"
-            href="/easing-editor/power/in          ">
+            href="./easing-editor/power/in          ">
             <span>power in</span>
           </a>
         </li>
@@ -213,7 +213,7 @@
             data-color="5"
             data-category="Power"
             title="Power out"
-            href="/easing-editor/power/out          ">
+            href="./easing-editor/power/out          ">
             <span>power out</span>
           </a>
         </li>
@@ -224,7 +224,7 @@
             data-color="5"
             data-category="Power"
             title="Power inOut"
-            href="/easing-editor/power/inout          ">
+            href="./easing-editor/power/inout          ">
             <span>power inOut</span>
           </a>
         </li>
@@ -235,7 +235,7 @@
             data-color="5"
             data-category="Power"
             title="Power outIn"
-            href="/easing-editor/power/outin          ">
+            href="./easing-editor/power/outin          ">
             <span>power outIn</span>
           </a>
         </li>
@@ -246,7 +246,7 @@
             data-color="7"
             data-category="Sine"
             title="InSine"
-            href="/easing-editor/sine/insine          ">
+            href="./easing-editor/sine/insine          ">
             <span>inSine</span>
           </a>
         </li>
@@ -257,7 +257,7 @@
             data-color="7"
             data-category="Sine"
             title="OutSine"
-            href="/easing-editor/sine/outsine          ">
+            href="./easing-editor/sine/outsine          ">
             <span>outSine</span>
           </a>
         </li>
@@ -268,7 +268,7 @@
             data-color="7"
             data-category="Sine"
             title="InOutSine"
-            href="/easing-editor/sine/inoutsine          ">
+            href="./easing-editor/sine/inoutsine          ">
             <span>inOutSine</span>
           </a>
         </li>
@@ -279,7 +279,7 @@
             data-color="7"
             data-category="Sine"
             title="OutInSine"
-            href="/easing-editor/sine/outinsine          ">
+            href="./easing-editor/sine/outinsine          ">
             <span>outInSine</span>
           </a>
         </li>
@@ -290,7 +290,7 @@
             data-color="8"
             data-category="Exponential"
             title="InExpo"
-            href="/easing-editor/exponential/inexpo          ">
+            href="./easing-editor/exponential/inexpo          ">
             <span>inExpo</span>
           </a>
         </li>
@@ -301,7 +301,7 @@
             data-color="8"
             data-category="Exponential"
             title="OutExpo"
-            href="/easing-editor/exponential/outexpo          ">
+            href="./easing-editor/exponential/outexpo          ">
             <span>outExpo</span>
           </a>
         </li>
@@ -312,7 +312,7 @@
             data-color="8"
             data-category="Exponential"
             title="InOutExpo"
-            href="/easing-editor/exponential/inoutexpo          ">
+            href="./easing-editor/exponential/inoutexpo          ">
             <span>inOutExpo</span>
           </a>
         </li>
@@ -323,7 +323,7 @@
             data-color="8"
             data-category="Exponential"
             title="OutInExpo"
-            href="/easing-editor/exponential/outinexpo          ">
+            href="./easing-editor/exponential/outinexpo          ">
             <span>outInExpo</span>
           </a>
         </li>
@@ -334,7 +334,7 @@
             data-color="9"
             data-category="Circular"
             title="InCirc"
-            href="/easing-editor/circular/incirc          ">
+            href="./easing-editor/circular/incirc          ">
             <span>inCirc</span>
           </a>
         </li>
@@ -345,7 +345,7 @@
             data-color="9"
             data-category="Circular"
             title="OutCirc"
-            href="/easing-editor/circular/outcirc          ">
+            href="./easing-editor/circular/outcirc          ">
             <span>outCirc</span>
           </a>
         </li>
@@ -356,7 +356,7 @@
             data-color="9"
             data-category="Circular"
             title="InOutCirc"
-            href="/easing-editor/circular/inoutcirc          ">
+            href="./easing-editor/circular/inoutcirc          ">
             <span>inOutCirc</span>
           </a>
         </li>
@@ -367,7 +367,7 @@
             data-color="9"
             data-category="Circular"
             title="OutInCirc"
-            href="/easing-editor/circular/outincirc          ">
+            href="./easing-editor/circular/outincirc          ">
             <span>outInCirc</span>
           </a>
         </li>
@@ -378,7 +378,7 @@
             data-color="10"
             data-category="Back"
             title="InBack"
-            href="/easing-editor/back/inback          ">
+            href="./easing-editor/back/inback          ">
             <span>inBack</span>
           </a>
         </li>
@@ -389,7 +389,7 @@
             data-color="10"
             data-category="Back"
             title="OutBack"
-            href="/easing-editor/back/outback          ">
+            href="./easing-editor/back/outback          ">
             <span>outBack</span>
           </a>
         </li>
@@ -400,7 +400,7 @@
             data-color="10"
             data-category="Back"
             title="InOutBack"
-            href="/easing-editor/back/inoutback          ">
+            href="./easing-editor/back/inoutback          ">
             <span>inOutBack</span>
           </a>
         </li>
@@ -411,7 +411,7 @@
             data-color="10"
             data-category="Back"
             title="OutInBack"
-            href="/easing-editor/back/outinback          ">
+            href="./easing-editor/back/outinback          ">
             <span>outInBack</span>
           </a>
         </li>
@@ -422,7 +422,7 @@
             data-color="11"
             data-category="Elastic"
             title="InElastic"
-            href="/easing-editor/elastic/inelastic          ">
+            href="./easing-editor/elastic/inelastic          ">
             <span>inElastic</span>
           </a>
         </li>
@@ -433,7 +433,7 @@
             data-color="11"
             data-category="Elastic"
             title="OutElastic"
-            href="/easing-editor/elastic/outelastic          ">
+            href="./easing-editor/elastic/outelastic          ">
             <span>outElastic</span>
           </a>
         </li>
@@ -444,7 +444,7 @@
             data-color="11"
             data-category="Elastic"
             title="InOutElastic"
-            href="/easing-editor/elastic/inoutelastic          ">
+            href="./easing-editor/elastic/inoutelastic          ">
             <span>inOutElastic</span>
           </a>
         </li>
@@ -455,7 +455,7 @@
             data-color="11"
             data-category="Elastic"
             title="OutInElastic"
-            href="/easing-editor/elastic/outinelastic          ">
+            href="./easing-editor/elastic/outinelastic          ">
             <span>outInElastic</span>
           </a>
         </li>
@@ -466,7 +466,7 @@
             data-color="12"
             data-category="Bounce"
             title="InBounce"
-            href="/easing-editor/bounce/inbounce          ">
+            href="./easing-editor/bounce/inbounce          ">
             <span>inBounce</span>
           </a>
         </li>
@@ -477,7 +477,7 @@
             data-color="12"
             data-category="Bounce"
             title="OutBounce"
-            href="/easing-editor/bounce/outbounce          ">
+            href="./easing-editor/bounce/outbounce          ">
             <span>outBounce</span>
           </a>
         </li>
@@ -488,7 +488,7 @@
             data-color="12"
             data-category="Bounce"
             title="InOutBounce"
-            href="/easing-editor/bounce/inoutbounce          ">
+            href="./easing-editor/bounce/inoutbounce          ">
             <span>inOutBounce</span>
           </a>
         </li>
@@ -499,7 +499,7 @@
             data-color="12"
             data-category="Bounce"
             title="OutInBounce"
-            href="/easing-editor/bounce/outinbounce          ">
+            href="./easing-editor/bounce/outinbounce          ">
             <span>outInBounce</span>
           </a>
         </li>
@@ -510,7 +510,7 @@
             data-color="13"
             data-category="Irregular"
             title="Irregular light"
-            href="/easing-editor/irregular/light          ">
+            href="./easing-editor/irregular/light          ">
             <span>irregular light</span>
           </a>
         </li>
@@ -521,7 +521,7 @@
             data-color="13"
             data-category="Irregular"
             title="Irregular heavy"
-            href="/easing-editor/irregular/heavy          ">
+            href="./easing-editor/irregular/heavy          ">
             <span>irregular heavy</span>
           </a>
         </li>
@@ -532,7 +532,7 @@
             data-color="13"
             data-category="Steps"
             title="Steps start"
-            href="/easing-editor/steps/start          ">
+            href="./easing-editor/steps/start          ">
             <span>steps start</span>
           </a>
         </li>
@@ -543,7 +543,7 @@
             data-color="13"
             data-category="Steps"
             title="Steps end"
-            href="/easing-editor/steps/end          ">
+            href="./easing-editor/steps/end          ">
             <span>steps end</span>
           </a>
         </li>
@@ -650,19 +650,19 @@
   </g>
 </svg>
 </a></li>
-            <li><a href="/documentation" title="Documentation">Documentation<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+            <li><a href="./documentation" title="Documentation">Documentation<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
   <g fill="none" fill-rule="evenodd">
     <polygon fill="currentColor" fill-rule="nonzero" points="17.737 11.987 12.5 17.225 11.263 15.987 14.388 12.862 6.5 12.862 6.5 11.112 14.388 11.112 11.263 7.987 12.5 6.75"/>
   </g>
 </svg>
 </a></li>
-            <li><a href="/easing-editor" title="Easing functions editor">Easings editor<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+            <li><a href="./easing-editor" title="Easing functions editor">Easings editor<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
   <g fill="none" fill-rule="evenodd">
     <polygon fill="currentColor" fill-rule="nonzero" points="17.737 11.987 12.5 17.225 11.263 15.987 14.388 12.862 6.5 12.862 6.5 11.112 14.388 11.112 11.263 7.987 12.5 6.75"/>
   </g>
 </svg>
 </a></li>
-            <li><a href="/learn" title="Learn">Learn<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
+            <li><a href="./learn" title="Learn">Learn<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon">
   <g fill="none" fill-rule="evenodd">
     <polygon fill="currentColor" fill-rule="nonzero" points="17.737 11.987 12.5 17.225 11.263 15.987 14.388 12.862 6.5 12.862 6.5 11.112 14.388 11.112 11.263 7.987 12.5 6.75"/>
   </g>
@@ -705,7 +705,7 @@
       <div class="footer-block footer-logo-block">
         <div class="heading-logo footer-logo">
           <a href="/">
-            <img src="/assets/images/anime-js-logo-v4.svg" alt="anime.js logo v4" width="580" height="118" />
+            <img src="./assets/images/anime-js-logo-v4.svg" alt="anime.js logo v4" width="580" height="118" />
             <span>Anime.js | JavaScript Animation Engine</span>
           </a>
         </div>
@@ -735,5 +735,5 @@
   </div>
 </footer>
   </div>
-<script src="/assets/js/scripts.js?v=4.4.1"></script></body>
+<script src="./assets/js/scripts.js"></script></body>
 </html>
